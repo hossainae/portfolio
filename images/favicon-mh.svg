@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MH favicon">
+  <defs>
+    <linearGradient id="mhText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58d7ff"/>
+      <stop offset="48%" stop-color="#9b7cff"/>
+      <stop offset="100%" stop-color="#5dffbd"/>
+    </linearGradient>
+    <linearGradient id="mhBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066ff"/>
+      <stop offset="45%" stop-color="#7657ff"/>
+      <stop offset="100%" stop-color="#00a778"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="118" fill="#070b18" filter="url(#shadow)"/>
+  <rect x="44" y="44" width="424" height="424" rx="105" fill="none" stroke="url(#mhBorder)" stroke-width="18"/>
+  <circle cx="124" cy="118" r="100" fill="#58d7ff" opacity="0.14"/>
+  <circle cx="406" cy="398" r="118" fill="#5dffbd" opacity="0.12"/>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, Arial, Helvetica, sans-serif" font-size="194" font-weight="900"
+        letter-spacing="-16" fill="url(#mhText)">MH</text>
+</svg>
