@@ -1,0 +1,34 @@
+# robots.txt for Mohammad Hossain
+# Website: https://www.hossain.me/
+
+# Allow OpenAI SearchBot for ChatGPT Search visibility
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Google Search
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing Search / Yahoo Search visibility
+User-agent: Bingbot
+Allow: /
+
+# Allow all other standard search engines
+User-agent: *
+Allow: /
+
+# Block unwanted/spam bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://www.hossain.me/sitemap.xml
