@@ -8,36 +8,107 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "mainEntity": {
-    "@type": "Person",
-    "name": "Mohammad Hossain",
-    "jobTitle": "IT Specialist & Senior Design Manager",
-    "description": "Dubai-based IT Specialist and Senior Design Manager with 16+ years of professional experience in IT support, web design, graphic design, digital marketing, administration, and business operations.",
-    "url": "https://www.hossain.me/",
-    "email": "hossainae3@gmail.com",
-    "telephone": "+971544654715",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dubai",
-      "addressCountry": "AE"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hossain.me/#website",
+      "url": "https://www.hossain.me/",
+      "name": "Mohammad Hossain Portfolio",
+      "description": "Official portfolio of Mohammad Hossain, IT Specialist and Senior Design Manager in Dubai, UAE.",
+      "inLanguage": "en-AE",
+      "publisher": {
+        "@id": "https://www.hossain.me/#person"
+      }
     },
-    "sameAs": [
-      "https://www.linkedin.com/in/hossainae/",
-      "https://www.hossain.me/"
-    ],
-    "knowsAbout": [
-      "IT Support",
-      "Web Design",
-      "Graphic Design",
-      "Senior Design Management",
-      "Digital Marketing",
-      "Office Administration",
-      "Data Analysis",
-      "Prompt Engineering",
-      "Dubai UAE Business Support"
-    ]
-  }
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.hossain.me/#profilepage",
+      "url": "https://www.hossain.me/",
+      "name": "Mohammad Hossain Portfolio",
+      "description": "Professional portfolio of Mohammad Hossain, Dubai-based IT Specialist and Senior Design Manager.",
+      "isPartOf": {
+        "@id": "https://www.hossain.me/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.hossain.me/#person"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.hossain.me/#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.hossain.me/#primaryimage",
+      "url": "https://www.hossain.me/images/og-image.jpg",
+      "width": 1200,
+      "height": 630,
+      "caption": "Mohammad Hossain portfolio preview"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.hossain.me/#person",
+      "name": "Mohammad Hossain",
+      "jobTitle": "IT Specialist & Senior Design Manager",
+      "description": "Dubai-based IT Specialist and Senior Design Manager with 16+ years of professional experience in IT support, web design, graphic design, digital marketing, administration, and business operations.",
+      "url": "https://www.hossain.me/",
+      "image": "https://www.hossain.me/images/profile-photo.png",
+      "email": "hossainae3@gmail.com",
+      "telephone": "+971544654715",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/hossainae/",
+        "https://www.hossain.me/"
+      ],
+      "knowsAbout": [
+        "IT Support",
+        "Web Design",
+        "Graphic Design",
+        "Senior Design Management",
+        "Digital Marketing",
+        "Office Administration",
+        "Data Analysis",
+        "Prompt Engineering",
+        "Dubai UAE Business Support",
+        "SEO",
+        "Brand Identity Design",
+        "Print Design"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.hossain.me/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.hossain.me/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.hossain.me/#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Skills",
+          "item": "https://www.hossain.me/#skills"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Contact",
+          "item": "https://www.hossain.me/#contact"
+        }
+      ]
+    }
+  ]
 }
 </script>
   
@@ -47,20 +118,40 @@
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon-mh.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
   <meta name="theme-color" content="#070b18"/>
-  <meta name="description" content="Mohammad Hossain is an IT Specialist and Senior Design Manager based in Dubai, UAE with 16+ years of experience in IT, design management, administration, digital marketing, print design, and web solutions." />
-  <meta name="keywords" content="Mohammad Hossain, IT Specialist Dubai, Senior Design Manager, Graphic Designer Dubai, Digital Marketing Specialist, Web Support, Administration Manager, Portfolio" />
+  <meta name="description" content="Mohammad Hossain is a Dubai-based IT Specialist and Senior Design Manager with 16+ years of experience in IT support, web design, branding, digital marketing, administration, print design, SEO, and business operations." />
+  <meta name="keywords" content="Mohammad Hossain, IT Specialist Dubai, Senior Design Manager Dubai, Graphic Designer Dubai, Digital Marketing Specialist Dubai, Web Design Dubai, IT Support Dubai, Portfolio, SEO, Branding, Print Design" />
   <meta name="author" content="Mohammad Hossain" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.hossain.me" />
-  <meta property="og:title" content="Mohammad Hossain | IT Specialist & Senior Design Manager" />
-  <meta property="og:description" content="Premium portfolio website for Mohammad Hossain, Dubai-based IT Specialist and Senior Design Manager." />
+  <link rel="canonical" href="https://www.hossain.me/" />
+  <meta property="og:title" content="Mohammad Hossain | IT Specialist & Senior Design Manager Dubai" />
+  <meta property="og:description" content="Dubai-based IT Specialist, Senior Design Manager, web support, branding, digital marketing, administration and creative professional with 16+ years of experience." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.hossain.me" />
-  <meta property="og:image" content="https://www.hossain.me/og-image.jpg" />
+  <meta property="og:url" content="https://www.hossain.me/" />
+  <meta property="og:image" content="https://www.hossain.me/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Mohammad Hossain portfolio preview" />
+  <meta property="og:site_name" content="Mohammad Hossain Portfolio" />
+  <meta property="og:locale" content="en_AE" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Mohammad Hossain | IT Specialist & Senior Design Manager" />
+  <meta name="twitter:title" content="Mohammad Hossain | IT Specialist & Senior Design Manager Dubai" />
   <meta name="twitter:description" content="IT Specialist, Senior Design Manager, Administrator, Digital Marketer, and Creative Professional based in Dubai, UAE." />
-  <meta name="twitter:image" content="https://www.hossain.me/og-image.jpg" />
+  <meta name="twitter:image" content="https://www.hossain.me/images/og-image.jpg" />
+  <meta name="twitter:image:alt" content="Mohammad Hossain portfolio preview" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="geo.region" content="AE-DU" />
+  <meta name="geo.placename" content="Dubai" />
+  <meta name="language" content="English" />
+  <meta name="distribution" content="global" />
+  <link rel="alternate" hreflang="en-ae" href="https://www.hossain.me/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.hossain.me/" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="preload" as="image" href="/images/profile-photo.png" fetchpriority="high" />
+  <meta property="article:author" content="Mohammad Hossain" />
+  <meta name="twitter:url" content="https://www.hossain.me/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />

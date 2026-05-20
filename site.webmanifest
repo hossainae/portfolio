@@ -1,0 +1,17 @@
+{
+  "name": "Mohammad Hossain Portfolio",
+  "short_name": "MH Portfolio",
+  "description": "Portfolio of Mohammad Hossain, IT Specialist and Senior Design Manager in Dubai, UAE.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b18",
+  "theme_color": "#58d7ff",
+  "icons": [
+    {
+      "src": "/images/profile-photo.png",
+      "sizes": "900x900",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
